@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Montserrat+Alternates:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Klee One', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.carousel-item img {
+    height: 475px;
+    object-fit: cover;
+}
+
+/*seccion inicio*/
+.primer_cont, .segundo_cont {
+    padding: 25px;
+}
+
+.cont_inicio h2, .cont_inicio p{
+    padding: 15px;    
+}
+
+.card-group {
+    gap: 5px;
+}
+
+.card-img-top img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.segundo_cont img{
+    height: 300px;
+    object-fit: cover;
+
+}
+
+
+/*seccion eventos*/
+.eventos iframe{
+    width: 100%;
+    height: 600px;
+}
+
+.eventos_proximos {
+    padding: 30px;
+}
+
+.eventos_proximos h2, .eventos_proximos p {
+    padding: 15px;
+}
+
+/*seccion comunidad*/
+.comunidad_inicio{
+    padding: 30px;
+}
+
+
+/*seccion recursos*/
+.multimedia img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.multimedia p {
+    padding: 35px;
+}
+
+/* seccion contactos*/
+.contenido1_question, .contenido1_form {
+    padding: 25px;
+}
+
+.contenido1 h2 {
+    padding-bottom: 15px;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 600px) {
+    /*eventos*/
+    .eventos iframe {
+        display: none;
+    }
+
+    .eventos_proximos img {
+        height: 300px;
+        object-fit: contain;
+    }
+
+    /*recursos*/
+    .multimedia{
+        height: 1000px;
+    }
+    .multimedia img{
+        height:100%;
+        object-fit: contain;
+    }
+}
